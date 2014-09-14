@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="MovieClipRotationTest" package="com.dango_itimi.MovieClipRotationTest" version="1.0.0" company="dango_itimi.com" />
+	<app main="haxegame.MainForOpenFL" path="openfl/export" file="MovieClipRotationTest" />
+
+    <window width="500" height="500" if="windows"/>
+    <window orientation="portrait" fps="30" background="#000000" antialiasing="0" />
+
+	<source path="src/app" />
+    <source path="src/openfl" />
+
+	<haxelib name="openfl" />
+    <haxelib name="swf" />
+
+    <library path="deploy/view.swf" />
+
+	<assets path="openfl/assets" rename="assets" exclude="openfl.svg" />
+
+</project>
